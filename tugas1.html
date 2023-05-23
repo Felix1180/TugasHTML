@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Project HTML Sederhana</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Halo Kak</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Tentang Saya</h2>
+        <article id="artikel1">
+          <h3>Artikel 1</h3>
+          <p>
+            Saya adalah seorang mahasiswa di Institut Teknologi Kalimantan saya
+            bercita-cita menjadi orang kaya, dulu ku susah sekarang
+            Alhamdulillah bersyukurlah pada yang Mahakuasa memberi jalan untukku
+            semua. Hidupku dulunya seorang pengamen pulang malam selalu bawa
+            uang recehan mengejar cita-cita paling mulia membantu keluarga di
+            rumah
+          </p>
+        </article>
+        <article id="artikel2">
+          <h3>Artikel 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+            facere magni eius dicta in et, quidem repudiandae ab ipsam nam,
+            natus unde repellat debitis rerum consequatur voluptate delectus
+            architecto omnis..
+          </p>
+        </article>
+      </section>
+
+      <aside>
+        <h2>Informasi Diri</h2>
+        <p>Nama: Christian Felix</p>
+        <p>NIM: 11221080</p>
+        <p>Tempat Tanggal Lahir: Bontang, 11 Agustus 2004</p>
+        <img src="foto.png" alt="Foto Profil" />
+
+        <h3>Daftar Sosial Media:</h3>
+        <ul>
+          <li><a href="https://www.facebook.com">Facebook</a></li>
+          <li><a href="https://www.instagram.com">Instagram</a></li>
+          <li><a href="https://www.twitter.com">Twitter</a></li>
+        </ul>
+      </aside>
+
+      <section>
+        <h2>Kontak</h2>
+        <form onsubmit="submitForm()">
+          <label for="nama">Nama:</label>
+          <input
+            type="text"
+            id="nama"
+            placeholder="Isi nama kalian"
+            required
+          /><br /><br />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="example@email.com"
+            required
+          />
+          <br /><br />
+
+          <input type="submit" value="Kirim Formulir" />
+        </form>
+        <h5>Langkah langkah mengisi form:</h5>
+        <ol>
+          <li>Isi nama lengkap pada kolom nama</li>
+          <li>Isi email milik kalian</li>
+          <li>Tekan tombol "Kirim Formulir"</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <h6>Hak Cipta &copy; 2023 Christian Felix</h6>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
