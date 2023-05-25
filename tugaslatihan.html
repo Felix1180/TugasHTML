@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Submission WebDev</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
     <script src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Header</h1>
+      <h1>Header</h1>
     </header>
 
     <main>
-        <section id="deskripsi-web">
-            <h2>Deskripsi Web</h2>
-            <p>Web ini sederhana, blablbalabllablablabllbbalbal Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde repellat labore est reprehenderit dignissimos cupiditate rem, fugiat ipsa soluta consectetur sunt laborum possimus autem assumenda nam, tenetur quam voluptas nobis..</p>
-        </section>
+      <section id="deskripsi-web">
+        <h2>Deskripsi Web</h2>
+        <p>
+          Web ini sederhana, blablbalabllablablabllbbalbal Lorem ipsum dolor sit
+          amet consectetur, adipisicing elit. Unde repellat labore est
+          reprehenderit dignissimos cupiditate rem, fugiat ipsa soluta
+          consectetur sunt laborum possimus autem assumenda nam, tenetur quam
+          voluptas nobis..
+        </p>
+      </section>
 
-        <section id="artikel">
-            <h2>Artikel</h2>
-            <article>
-                <h3>Judul Artikel</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aspernatur libero quaerat architecto odio aut tempore iste explicabo, consectetur, et voluptatem quis ut officiis sint est consequatur culpa, rerum nam....</p>
-            </article>
-        </section>
+      <section id="artikel">
+        <h2>Artikel</h2>
+        <article>
+          <h3>Judul Artikel</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt
+            aspernatur libero quaerat architecto odio aut tempore iste
+            explicabo, consectetur, et voluptatem quis ut officiis sint est
+            consequatur culpa, rerum nam....
+          </p>
+        </article>
+      </section>
 
-        <section id="kontak-saya">
-            
-            <h2>Kontak Saya</h2>
-            <div>
-                <h3>Nama</h3>
-                <p>Christian Felix</p>
-            </div>
-            <div>
-                <h3>Email</h3>
-                <p>felix@gmail.com</p>
-            </div>
-            <div>
-                <h3>Nomor Telepon</h3>
-                <p>+1234567890</p>
-            </div>
-            <div>
-                <form onsubmit="submitForm()">
-                <h3>Pesan</h3>
-                <input type="text" id="input-pesan" placeholder="Isi dengan pesan Anda" required>
-            </div>
-            <div>
-                <input type="submit" value="Kirim Pesan">
-            </form>
-            </div>
-        </section>
-    </main>
-
-    <aside id="biodata">
+      <aside id="biodata">
         <h2>Biodata</h2>
         <ul>
-            <li>Nama: Christian Felix</li>
-            <li>NIM: 11221080</li>
-            <li>Tempat, Tanggal Lahir: Bontang, 11 Agustus 2004</li>
+          <li>Nama: Christian Felix</li>
+          <li>NIM: 11221080</li>
+          <li>Tempat, Tanggal Lahir: Bontang, 11 Agustus 2004</li>
         </ul>
-    </aside>
+      </aside>
+
+      <section id="kontak-saya">
+        <h2>Kontak Saya</h2>
+        <div>
+          <h3>Nama</h3>
+          <p>Christian Felix</p>
+        </div>
+        <div>
+          <h3>Email</h3>
+          <p>felix@gmail.com</p>
+        </div>
+        <form onsubmit="submitForm()">
+          <div>
+            <h3>Nama</h3>
+            <input
+              type="text"
+              id="input-nama"
+              placeholder="Masukkan nama Anda"
+              required
+            />
+          </div>
+          <div>
+            <h3>Email</h3>
+            <input
+              type="email"
+              id="input-email"
+              placeholder="Masukkan email Anda"
+              required
+            />
+          </div>
+          <div>
+            <h3>Pesan</h3>
+            <input
+              type="text"
+              id="input-pesan"
+              placeholder="Isi dengan pesan Anda"
+              required
+            />
+          </div>
+          <div>
+            <input type="submit" value="Kirim Pesan" />
+          </div>
+        </form>
+      </section>
+    </main>
 
     <footer>
-        <h6>Christian Felix</h6>
+      <h6>Christian Felix</h6>
     </footer>
-</body>
+  </body>
 </html>
